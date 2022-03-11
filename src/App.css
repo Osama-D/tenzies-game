@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* overflow: hidden; */
+  margin: 0;
+  background-color: #241958;
+}
+main {
+  margin: 200px auto;
+  background-color: white;
+  max-width: 500px;
+  height: 380px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.356);
+}
+h1 {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.6px;
+  padding-top: 33px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  padding-bottom: 0;
+  color: #2b283a;
+}
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1072px;
+  padding: 10px 100px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #4a4e74;
+}
+.Die-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: auto;
+}
+.Die-container span {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b283a;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 15px 0;
+  margin-top: 18px;
+  width: 55px;
+  height: 55px;
+  /* background: #59e391; */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.384px;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  align-items: center;
+  text-align: center;
+  border: none;
+  width: 192px;
+  height: 35px;
+  color: #ffffff;
+
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+}
+button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 520px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    padding: 15px 40px;
+  }
+  main {
+    box-sizing: border-box;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px 0 transparent;
+  }
+  .Die-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .Die-container span {
+    box-sizing: border-box;
+    height: 40px;
+    width: 100px;
+
+    padding: 50px;
+    margin: 10px 10px;
+  }
+  button {
+    width: 300px;
+    height: 50px;
+  }
+}
